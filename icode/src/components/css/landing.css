@@ -1,4 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.midSection{
+    flex: 4;
+}
+
+.Post{
+    display: none;
+}
+
+.rightSection{
+    flex: 1;
+}
+
+.aboutHeading, .skillsHeading{
+    display: flex;
+    flex-direction: row;
+}
+
+
 

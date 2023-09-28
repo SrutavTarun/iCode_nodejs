@@ -6,7 +6,7 @@ import wlcmImg2 from "./Images/wlcm_page_img2.png";
 import { NavLink } from "react-router-dom";
 export const Home = () => {
   return (
-    <div className="main">
+    <div className="main welcome">
       <div className="top">
         <div className="logo">iCode</div>
         <div className="top-sub">
@@ -39,6 +39,9 @@ export const Home = () => {
             Already a member? {"   "}
             <NavLink to="/login" className="loginMainLink">
               &nbsp;&nbsp;Log in
+            </NavLink>
+            <NavLink to="/landing" className="loginMainLink">
+              &nbsp;&nbsp;Landing
             </NavLink>
            
           </div>
